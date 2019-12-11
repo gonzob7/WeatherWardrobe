@@ -120,11 +120,11 @@
             </objects>
             <point key="canvasLocation" x="1957.9710144927537" y="138.61607142857142"/>
         </scene>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="f3Q-Qq-D1O">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="boO-wp-5AD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="OLi-Ry-wLF"/>
+                    <tabBarItem key="tabBarItem" title="Home" id="OLi-Ry-wLF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mKk-4z-V0J">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -145,6 +145,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="5PG-y1-6a2" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="13e-Bn-och">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
