@@ -156,11 +156,47 @@
                     </tabBar>
                     <connections>
                         <segue destination="boO-wp-5AD" kind="relationship" relationship="viewControllers" id="Cvl-wK-Zfu"/>
+                        <segue destination="ugd-It-kVl" kind="relationship" relationship="viewControllers" id="z4i-kw-9nz"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QZr-9w-cwb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="138.61607142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7I4-wX-4ID">
+            <objects>
+                <viewController id="xHb-cQ-3FM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xlt-zo-ddi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="hXz-ul-DCw"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="e5f-a3-eYf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ey7-NR-eMk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1048" y="889"/>
+        </scene>
+        <!--Wardrobe-->
+        <scene sceneID="WFK-dX-bjy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ugd-It-kVl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Wardrobe" id="oto-Ht-SJQ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qDU-HW-WmW">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xHb-cQ-3FM" kind="relationship" relationship="rootViewController" id="9bf-7G-KG9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2DW-fS-a2s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="889"/>
         </scene>
     </scenes>
 </document>
