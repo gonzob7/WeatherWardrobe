@@ -5,7 +5,7 @@ An iOS app that lets users upload their wardrobe and gives them suggestions on w
 
 ### Wireframes
 
-<img src="https://github.com/gonzob7/WeatherWardrobe/blob/master/wireframes.png" width="600" height="250">
+<img src="https://github.com/gonzob7/WeatherWardrobe/blob/master/wireframes.png" width="950" height="450">
 
 ### User Journeys
 
