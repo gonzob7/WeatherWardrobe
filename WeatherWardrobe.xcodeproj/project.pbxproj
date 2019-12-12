@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0177FD123A1FCEA00F92EAD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0177FD023A1FCEA00F92EAD /* TableViewController.swift */; };
 		E0604E2B23A0B20200D9203B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0604E2A23A0B20200D9203B /* AppDelegate.swift */; };
 		E0604E2D23A0B20200D9203B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0604E2C23A0B20200D9203B /* SceneDelegate.swift */; };
 		E0604E2F23A0B20200D9203B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0604E2E23A0B20200D9203B /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0177FD023A1FCEA00F92EAD /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		E0604E2723A0B20200D9203B /* WeatherWardrobe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherWardrobe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0604E2A23A0B20200D9203B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0604E2C23A0B20200D9203B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				E0604E3823A0B20400D9203B /* LaunchScreen.storyboard */,
 				E0604E3B23A0B20400D9203B /* Info.plist */,
 				E0604E3323A0B20200D9203B /* WeatherWardrobe.xcdatamodeld */,
+				E0177FD023A1FCEA00F92EAD /* TableViewController.swift */,
 			);
 			path = WeatherWardrobe;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				E0604E2F23A0B20200D9203B /* ViewController.swift in Sources */,
 				E0604E2B23A0B20200D9203B /* AppDelegate.swift in Sources */,
 				E0604E3523A0B20200D9203B /* WeatherWardrobe.xcdatamodeld in Sources */,
+				E0177FD123A1FCEA00F92EAD /* TableViewController.swift in Sources */,
 				E0604E2D23A0B20200D9203B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
